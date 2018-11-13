@@ -1,3 +1,6 @@
+class Deli 
+  @@ticketdispenser = 1 
+  
 def line(katz_deli)
   if katz_deli.empty? 
     puts "The line is currently empty."
@@ -11,7 +14,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli)
-   katz_deli.
+   @@ticketdispenser
    puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end 
 
@@ -22,4 +25,5 @@ def now_serving(katz_deli)
   puts "Currently serving #{katz_deli.first}."
   katz_deli.shift 
 end
+end 
 end 
