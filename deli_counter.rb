@@ -15,7 +15,7 @@ end
 
 def take_a_number(katz_deli)
    @@ticketdispenser
-   puts "Welcome, your ticket number is #{@@ticketdispenser} and you are #{katz_deli.length} in line."
+   puts "Welcome, your ticket number is #{@@ticketdispenser} and you are #{katz_deli.length+1} in line."
    @@ticketdispenser += 1 
 end 
 
